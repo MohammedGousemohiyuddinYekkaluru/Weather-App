@@ -37,7 +37,7 @@
 
 1) Clone this repository
 
-- git clone https://github.com/your-username/weather-app.git
+- git clone https://github.com/MohammedGousemohiyuddinYekkaluru/weather-app.git
 
 
 2) Open the project folder
