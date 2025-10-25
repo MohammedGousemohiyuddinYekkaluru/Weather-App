@@ -18,6 +18,7 @@ async function checkWeather(ecity) {
 
   if (response.status === 404) {
     error.style.display = "block";
+    card.style.background = 'linear-gradient(135deg, #00feba, #5b548a)';
     document.querySelector(".weather").style.display = "none";
     return;
   } else {
@@ -96,4 +97,4 @@ function handleSearch() {
 searchBtn.addEventListener("click", handleSearch);
 searchBox.addEventListener("keypress", (e) => {
   if (e.key === "Enter") handleSearch();
-});
+})
